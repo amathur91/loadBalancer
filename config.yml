@@ -1,0 +1,18 @@
+backends:
+- name: orders
+  match_labels:
+    app_name: orders
+    env: production
+- name: payment
+  match_labels:
+    app_name: payment
+    env: production
+default_response:
+  body: "“This is not reachable”"
+  status_code: 403
+routes:
+  - backend: orders
+    path_prefix: /api/orders
+  - backend: payment
+    path_prefix: /api/payment
+

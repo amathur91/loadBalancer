@@ -1,0 +1,159 @@
+INFO: 2021/05/02 18:59:35 bootstrap.go:30: Bootstrapping LoadBalancer
+INFO: 2021/05/02 18:59:35 configParser.go:30: Reading configuration.
+INFO: 2021/05/02 18:59:35 bootstrap.go:85: Service orders registered for Traffic Routing. 
+INFO: 2021/05/02 18:59:35 bootstrap.go:85: Service payment registered for Traffic Routing. 
+INFO: 2021/05/02 18:59:35 bootstrap.go:51: Registering Service orders with Service path : /api/orders 
+INFO: 2021/05/02 18:59:35 bootstrap.go:51: Registering Service payment with Service path : /api/payment 
+INFO: 2021/05/02 18:59:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 18:59:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 18:59:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 18:59:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 18:59:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 18:59:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:00:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:00:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:01:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:01:35 servicediscovery.go:35: Service orders is offline.
+INFO: 2021/05/02 19:01:35 servicediscovery.go:35: Service payment is offline.
+INFO: 2021/05/02 19:01:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:01:49 serviceorchestration.go:14: Received API request for URL : /api/orders 
+INFO: 2021/05/02 19:01:49 serviceorchestration.go:36: Service payment is unavailable. 
+INFO: 2021/05/02 19:02:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:02:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:02:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:02:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:02:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:02:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:03:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:03:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:03:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:03:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:03:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:03:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:04:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:04:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:04:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:04:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:04:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:04:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:05:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:05:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:05:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:05:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:05:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:05:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:06:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:06:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:06:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:06:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:06:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:06:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:06:54 serviceorchestration.go:14: Received API request for URL : /api/orders 
+INFO: 2021/05/02 19:07:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:07:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:07:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:07:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:07:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:07:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:08:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:08:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:08:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:08:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:08:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:08:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:09:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:09:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:09:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:09:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:09:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:09:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:10:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:10:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:10:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:10:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:10:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:10:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:11:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:11:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:11:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:11:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:11:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:11:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:12:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:12:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:12:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:12:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:12:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:12:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:13:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:13:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:13:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:13:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:13:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:13:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:14:35 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:14:35 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:14:35 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:14:35 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:14:35 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:14:35 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:15:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:15:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:15:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:15:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:15:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:15:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:16:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:16:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:16:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:16:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:16:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:16:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:17:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:17:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:17:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:17:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:17:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:17:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:18:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:18:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:18:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:18:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:18:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:18:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:19:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:19:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:19:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:19:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:19:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:19:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:20:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:20:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:20:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:20:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:20:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:20:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:21:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:21:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:21:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:21:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:21:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:21:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:22:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:22:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:22:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:22:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:22:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:22:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:23:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:23:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:23:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:23:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:23:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:23:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
+INFO: 2021/05/02 19:24:36 servicediscovery.go:12: Scanning Services for updates.
+INFO: 2021/05/02 19:24:36 servicediscovery.go:47: Updating Service : payment 
+INFO: 2021/05/02 19:24:36 servicediscovery.go:59: Service payment is refreshed with updated info. 
+INFO: 2021/05/02 19:24:36 servicediscovery.go:47: Updating Service : orders 
+INFO: 2021/05/02 19:24:36 servicediscovery.go:59: Service orders is refreshed with updated info. 
+INFO: 2021/05/02 19:24:36 servicediscovery.go:22: Scanning for services complete. Sleeping 2.0 minutes 
